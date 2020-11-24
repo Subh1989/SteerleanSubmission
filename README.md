@@ -30,3 +30,5 @@ https://github.com/Subh1989/SteerleanSubmission.git
 4. Peform "mvn compile" to compile the java source classes of the maven project.
 
 5. Peform "mvn test" to run the scripts.
+
+6. To check the report, please navigate to the path "/target/surefire-reports/karate-tags.html"
