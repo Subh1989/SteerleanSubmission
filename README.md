@@ -3,7 +3,7 @@
 End-points & workflows tested:
 ~~~~
 1. For PET:
- POST /pet - Add a new pet to the store
+-> POST /pet - Add a new pet to the store
 -> PUT /pet - Update an existing pet
 -> GET /pet/findByStatus - Find Pets by status
 -> POST /pet/{petId} - Updates a pet in the store with form data
