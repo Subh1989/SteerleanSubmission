@@ -1,17 +1,19 @@
 @Store
-Feature: Find an “available” pet and place an order for the same
+Feature: Find an available pet and place an order for the same
 
 Background:
 	* def addPayload = read('classpath:Resources/AddPetPayload.json')
 	* def global = read('classpath:Resources/global.json')
 	* headers {Content-Type : 'application/json', Accept : 'application/json'}
 
+@PlaceOrder
 Scenario: Place an order for a pet
 	Given url global.URI + global.storeResource
   	When json payload = addPayload[0]
  	And request payload
  	When method POST
  	Then status 200	
+ 	And print response
 	* def pID = response.id
 		
 Scenario: Find purchase order by ID
