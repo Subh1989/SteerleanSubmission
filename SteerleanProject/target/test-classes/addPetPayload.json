@@ -1,0 +1,48 @@
+[
+	{
+	  "id": 6,
+	  "petId": 0,
+	  "quantity": 3,
+	  "shipDate": "2020-11-12T16:39:33.456Z",
+	  "status": "placed",
+	  "complete": true
+	},
+
+	{
+	  "id": 300,
+	  "category": {
+	    "id": 0,
+	    "name": "string"
+	  },
+	  "name": "doggie8876",
+	  "photoUrls": [
+	    "string"
+	  ],
+	  "tags": [
+	    {
+	      "id": 0,
+	      "name": "string"
+	    }
+	  ],
+	  "status": "available"
+	},
+	
+	{
+	  "id": 300,
+	  "category": {
+	    "id": 0,
+	    "name": "string"
+	  },
+	  "name": "doggie9988",
+	  "photoUrls": [
+	    "string"
+	  ],
+	  "tags": [
+	    {
+	      "id": 0,
+	      "name": "string"
+	    }
+	  ],
+	  "status": "available"
+	}
+]

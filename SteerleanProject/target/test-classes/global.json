@@ -1,0 +1,5 @@
+{
+	  "URI": "https://petstore.swagger.io/v2",
+	  "petResource": "/pet",
+	  "storeResource": "/store/order"
+}
