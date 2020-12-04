@@ -1,5 +1,5 @@
 @Workflow
-Feature: Workflow test
+Feature: Workflow tests
 
 Background:
 	* def addPayload = read('classpath:src/test/resources/addPetPayload.json')

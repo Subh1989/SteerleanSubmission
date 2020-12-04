@@ -1,5 +1,5 @@
 @Store
-Feature: Find an available pet and place an order for the same
+Feature: Find an available pet and place an order for same
 
 Background:
 	* def addPayload = read('classpath:src/test/resources/addPetPayload.json')
