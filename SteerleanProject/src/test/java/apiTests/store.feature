@@ -2,7 +2,7 @@
 Feature: Find an available pet and place an order for the same
 
 Background:
-	* def addPayload = read('classpath:src/test/resources/AddPetPayload.json')
+	* def addPayload = read('classpath:src/test/resources/addPetPayload.json')
 	* def global = read('classpath:src/test/resources/global.json')
 	* headers {Content-Type : 'application/json', Accept : 'application/json'}
 
