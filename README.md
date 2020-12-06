@@ -1,6 +1,6 @@
 # SteerleanSubmission
 
-End-points & workflows tested:
+End-points:
 ~~~~
 1. For PET:
 -> POST /pet - Add a new pet to the store
@@ -13,6 +13,11 @@ End-points & workflows tested:
 -> POST /store/order - Place an order for a pet
 -> GET /store/order/{orderId} - Find purchase order by ID
 -> DELETE /store/order/{orderId} - Delete purchase order by ID
+
+Workflow Tested: Available in workflow.feature
+~~~~
+-> Add a new pet and place an order for the same
+-> Find an “available” pet and place an order for the same
 
 ~~~~
 Tech stack used:
