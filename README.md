@@ -14,11 +14,11 @@ End-points:
 -> GET /store/order/{orderId} - Find purchase order by ID
 -> DELETE /store/order/{orderId} - Delete purchase order by ID
 
+~~~~
 Workflow Tested: Available in workflow.feature
 ~~~~
 -> Add a new pet and place an order for the same
 -> Find an “available” pet and place an order for the same
-
 ~~~~
 Tech stack used:
 Karate API Framework
